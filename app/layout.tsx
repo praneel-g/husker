@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [{ url: createOgImageUrl() }],
   },
-  metadataBase: new URL("https://husker.nu"),
+  metadataBase: new URL("https://husker.vercel.app"),
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
